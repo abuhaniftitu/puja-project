@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+/* top nav */
+.nav-1{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    line-height: 50px;
+
+
+
+    
+    
+}
+
+.nav-1 a{
+    text-decoration: none;
+    text-align: left;
+    padding: 0 25px;
+    color:aliceblue;
+
+
+}
+
+
+/* image */
+
+.top-image{
+    width: 100%;
+    height:400px;
+    background-color: aqua;
+
+}
+
+.top-image img{
+    width: 100%;
+    height: 400px;
+    object-fit:cover;
+}
+
+
+/* 2nd nav */
+
+.nav-2{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: black;
+    display: flex;
+    
+
+}
+
+/* left */
+.nav-2 .left{
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav-2 .left a{
+    text-decoration: none;
+    text-align: left;
+    padding: 0 25px;
+    color:aliceblue;
+
+}
+
+
+/* right */
+.nav-2 .right{
+    width: 50%;
+    height: 50px;
+}
+
+.right form {
+    float: right;
+    margin-right: 16px;
+    font-size: 17px;
+    align-items: top; 
+  }
+
+.right form input{
+    width: 200px;
+    height: 22px;
+    padding: 5px;
+}
+
+
+/* body */
+.content{
+    background-color: aqua;
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+}
+
+/* left */
+.content .content-left{
+    width: 20%;
+    height: 300px;
+    background-color: rgba(156, 206, 122, 0.87);
+    
+}
+
+.content .content-left h1{
+        background-color: green;
+        font-size: 30px;
+        padding:5px;
+        color: aliceblue;
+        
+}
+
+.content .content-left h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+/* mid */
+.content .content-mid{
+    width: 60%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.content .content-mid .content-heading{
+    display: flex;
+    width: 100%;
+    height: 56px;
+    background-color:rgb(150, 161, 150);        
+    
+}
+.content .content-mid .content-heading h1{
+    padding:10px;
+    color: aliceblue; 
+}
+
+.content .content-mid .content-heading img{
+    background-color: rgb(150, 161, 150);
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+.content .content-mid p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    padding: 7px;
+
+
+}
+
+/* Right */
+.content .content-right{
+    width: 20%;
+    height: 300px;
+  
+    background-color: rgba(156, 206, 122, 0.87);
+}
+
+.content .content-right h1{
+    background-color: green;
+    font-size: 30px;
+    padding:5px;
+    color: aliceblue;
+    
+}
+
+.content .content-right h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.content .content-right .login-form{
+    padding-top: 30px;
+    padding-left: 15px;
+    
+    
+}
+
+.content .content-right .login-form button{
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    background-color:orange;
+    border-radius: 10px;
+}
+
+
+/* Footer */
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: dimgray;
+    display: flex;
+}
+
+footer .footer-item{
+    width: 20%;
+    background-color: brown;
+    
+    
+}
