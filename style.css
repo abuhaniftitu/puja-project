@@ -23,9 +23,17 @@
     text-align: left;
     padding: 0 25px;
     color:aliceblue;
+    display: inline-block;
 
 
 }
+
+.nav-1 a:hover{
+    color: aqua;
+    background-color: aliceblue;
+    
+}
+
 
 
 /* image */
@@ -56,6 +64,7 @@
 
 }
 
+
 /* left */
 .nav-2 .left{
     width: 50%;
@@ -68,6 +77,15 @@
     text-align: left;
     padding: 0 25px;
     color:aliceblue;
+    
+
+}
+
+.nav-2 .left a:hover{
+    color: rgb(0, 104, 196);
+    
+    height: 100px;
+    width: 100px;
 
 }
 
@@ -203,12 +221,66 @@ footer{
     width: 100%;
     height: 300px;
     background-color: dimgray;
+    
+
+}
+
+footer .footer-item-area{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(6, 21, 41);
     display: flex;
+    border-bottom: 1px solid rgb(34, 33, 33);
+
+
 }
 
 footer .footer-item{
     width: 20%;
-    background-color: brown;
-    
-    
+    padding: 20px; 
+
+}
+
+footer .footer-item h1{
+    color: white;
+}
+
+footer .footer-item a{
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 15px;
+    display:block;
+    color: aliceblue;
+   
+}
+footer .footer-item a:hover{
+    color: rgb(236, 103, 42);
+}
+
+
+
+.footer-icon-btn img{
+    align-items: center;   
+    padding: 10px; 
+    padding-top:30px ;
+}
+
+.footer-icon-btn h2{
+    color: aliceblue;
+    font-size: 10px;
+
+
+}
+
+.footer-icon-btn h2:hover{
+    color: rgb(221, 197, 137);
+}
+
+/* last Step */
+footer .last-step{
+    font-size: 10px;
+    text-align: center;
+    background-color:rgb(6, 21, 41) ;
+    color: aliceblue;
+
 }
